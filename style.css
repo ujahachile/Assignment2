@@ -1,0 +1,142 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-boxvQ;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(93, 119, 139);
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  .container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 18px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+    background-color: rgb(49, 51, 56);
+  }
+  /* Media Queries for mobile */
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .text {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
+  /* Media Queries for Desktop */
+  @media(min-width: 1025px){
+    .container {
+      width: 50%;
+      padding: 20px;
+    }
+  }
+  
+  #header {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+  }
+  
+  /* Text Styling */
+  .text {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .text:hover {
+    cursor: pointer;
+  }
+  
+  .text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .text h1:hover {
+    color: rgb(165, 160, 160);
+    transition: 0.5s;
+  }
+  
+  .text p {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: greenyellow;
+    margin-bottom: 20px;
+  }
+  
+  .text p:hover {
+    color: rgb(182, 238, 103);
+    transition: 0.5s;
+  }
+  
+  .text h3 {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .text h3:hover {
+    color: rgb(165, 160, 160);
+    transition: 0.5s;
+  }
+  
+  /*Buttons Styling */buttons{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  .button {
+    margin-top: 10px;
+    padding: 5px; width: 200px;
+    background-color: rgb(24, 64, 241);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: rgb(26, 26, 25);
+    transition: 0.5s;
+  }
+  .flex-parent{
+    display: flex;
+  }
+  .jc-center {
+    justify-content: center;
+  }
